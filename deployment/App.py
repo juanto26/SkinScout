@@ -15,7 +15,7 @@ HuggingFace      : https://huggingface.co/spaces/celineclarissa/Skin-Scout
 
 Original Dataset : https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data
 
-Team GitHub      : https://github.com/juanto26/p2-final-project-skinscou
+Team GitHub      : https://github.com/juanto26/p2-final-project-skinscout
 
 
 Background

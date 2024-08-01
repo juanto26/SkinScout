@@ -1,4 +1,4 @@
-'''
+/*
 ==========================================================================================================================================
 
 Final Project | Skin-Scout
@@ -15,7 +15,7 @@ HuggingFace      : https://huggingface.co/spaces/celineclarissa/Skin-Scout
 
 Original Dataset : https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data
 
-Team GitHub      : https://github.com/juanto26/p2-final-project-skinscou
+Team GitHub      : https://github.com/juanto26/p2-final-project-skinscout
 
 
 Background
@@ -39,7 +39,7 @@ model with an F1-Score of 80%. This is done by using model such as SVC and cosin
 this model, our objective is to make the process of finding the perfect skincare product more time-efficient and less frustrating.
 
 ==========================================================================================================================================
-'''
+*/
 
 -- Create new table
 CREATE TABLE table_final (
