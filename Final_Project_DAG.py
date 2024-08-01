@@ -1,27 +1,47 @@
 '''
-=================================================
+==========================================================================================================================================
 
-Name  : 
+Final Project | Skin-Scout
 
-- Achmad Abdillah Ghifari - Data Analyst
-- Celine Clarissa - Data Scientist
-- Evan Juanto - Data Engineer
+Batch        : FTDS-BSD-006
+Group        : 3
+
+Team members : 
+- Achmad Abdillah Ghifari : Data Analyst
+- Celine Clarissa         : Data Scientist
+- Evan Juanto             : Data Engineer
+
+HuggingFace      : https://huggingface.co/spaces/celineclarissa/Skin-Scout
+
+Original Dataset : https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data
+
+Team GitHub      : https://github.com/juanto26/p2-final-project-skinscou
 
 
-Batch : BSD-006
-Group : 3
+Background
 
-Hugging Face: [HuggingFace](https://huggingface.co/spaces/celineclarissa/Skin-Scout)
+The current skincare market is flooded with countless products each with unique ingredients and highlights. Consumers often struggle to
+decide which product most consumer recommend due to the large amount of reviews for each different products, making reading to all the
+review traditionally wasting too much time and effort. While other metrics such as star rating is present on most skincare website,
+relying on only star rating to rate the quality of a product is unreliable as research has shown that star rating has many problem such as
+negativity bias where one negative aspect could lead to users leading a low star despite excelling in other area and also sometime the
+review and star a user give has discreptancy with some research finding only a moderate correlation between review and star rating. Hence,
+consumers are left to go through multiple reviews in order to get an accurate insight regarding certain skincare product. Due to this
+factor our teams goal is to create an application where we could make this process easier by finding out whether a certain user will
+recommend or not recommend a product based on their review.
 
-Original Data: [Original Data](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data)
 
-Team GitHub: [Github](https://github.com/juanto26/p2-final-project-skinscout)
+Problem Statement and Objective
 
-=================================================
+We want to create an application that utilizes Natural Language Processing (NLP) and a recommender system in order to help predict
+whether a customer will recommend a product or not and also to give recommendation of similar skincare product. Our goal is to create a
+model with an accuracy of 80%. This is done by using model such as svc and cosine similarity in order to create the model. By creating
+this model, our objective is to make the process of finding the perfect skincare product more time-efficient and less frustrating.
 
+==========================================================================================================================================
 '''
 
-# import libraries
+# Import libraries
 import datetime as dt
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
@@ -112,4 +132,3 @@ with DAG('MyDBdag',
 
 # Setting task dependencies
 getData >> cleandata >> insertData
-
