@@ -1,7 +1,8 @@
 <div align='center'>
     <h1><b>Skin-Scout</b></h1>
     <img src='SkinScout_Logo.png'/>
-    <br><br>
+    <br>
+
 </div>
 
 ---
