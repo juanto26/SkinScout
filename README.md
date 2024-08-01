@@ -21,7 +21,7 @@ The current skincare market is flooded with countless products each with unique 
 
 ## Technologies
 * Python
-* PostGres SQL
+* PostGreSQL
 * Pandas
 * DAG Airflow
 * Streamlit
