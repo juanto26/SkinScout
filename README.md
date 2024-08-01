@@ -1,6 +1,6 @@
 <div align='center'>
     <h1><b>Skin-Scout</b></h1>
-    <img src='SkinScout_Logo.png' width='200'/>
+    <src='SkinScout_Logo.png' width='200' alt='Skin Scout Logo'/>
     <br><br>
 </div>
 
