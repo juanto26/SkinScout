@@ -35,7 +35,7 @@ Problem Statement and Objective
 
 We want to create an application that utilizes Natural Language Processing (NLP) and a recommender system in order to help predict
 whether a customer will recommend a product or not and also to give recommendation of similar skincare product. Our goal is to create a
-model with an accuracy of 80%. This is done by using model such as svc and cosine similarity in order to create the model. By creating
+model with an F1-Score of 80%. This is done by using model such as SVC and cosine similarity in order to create the model. By creating
 this model, our objective is to make the process of finding the perfect skincare product more time-efficient and less frustrating.
 
 ==========================================================================================================================================

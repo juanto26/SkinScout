@@ -35,7 +35,7 @@ Problem Statement and Objective
 
 We want to create an application that utilizes Natural Language Processing (NLP) and a recommender system in order to help predict
 whether a customer will recommend a product or not and also to give recommendation of similar skincare product. Our goal is to create a
-model with an accuracy of 80%. This is done by using model such as svc and cosine similarity in order to create the model. By creating
+model with an F1-Score of 80%. This is done by using model such as SVC and cosine similarity in order to create the model. By creating
 this model, our objective is to make the process of finding the perfect skincare product more time-efficient and less frustrating.
 
 ==========================================================================================================================================
@@ -70,7 +70,7 @@ def run():
     container1.write('Skin-Scout offers many innovative features to help you unlock the full potential of skincare products. The following are what you can get by using our model.')
     container1.markdown('<h1 style="font-size: 20px;">User Review Analysis</h1>', unsafe_allow_html=True)
     container1.write('Skin-Scout analyze user reviews in order to gauge the likelihood that the users will recommend the product with remarkable accuracy. Skin-Scout helps provide valuable insight on whether a customer will likely recommend the product based on their reviews')
-    container1.markdown('<h1 style="font-size: 20px;">Personalized Suggestion</h1>', unsafe_allow_html=True)
+    container1.markdown('<h1 style="font-size: 20px;">Personalized Suggestions</h1>', unsafe_allow_html=True)
     container1.write('Skin-Scout also have a feature to suggest similar product to the customer according to the products ingredients and highlights. Just enter your preferred product and let our model do the rest.')
 
     container2 = st.container(border=True)
