@@ -3,6 +3,9 @@
     <img src='SkinScout_Logo.png'/>
     <br><br>
 
+</div>
+
+---
 # Skin-Scout - USER REVIEW ANALYSIS AND RECOMMENDER SYSTEM
 
 This project will utilize Natural Language Processing (NLP) and recommender system in order to help predict whether a customer will recommend a product or not and also to give recommendation of similar skincare product
