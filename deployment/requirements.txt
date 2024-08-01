@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy == 1.26.4
+nltk
+scikit-learn
+seaborn 
+matplotlib
+plotly
+wordcloud 
