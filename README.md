@@ -8,10 +8,10 @@
 ---
 ## Skin-Scout User Review Analysis and Recommender System
 
-This project will utilize Natural Language Processing (NLP) and recommender system in order to help predict whether a customer will recommend a product or not and also to give recommendation of similar skincare product
+This project will utilize Natural Language Processing (NLP) and recommender system in order to help predict whether a customer will recommend a product or not and also to give recommendation of similar skincare product.
 
 ## Project Objective
-The current skincare market is flooded with countless products each with unique ingredients and highlights. consumers often struggle to decide which product most consumer recommend due to the large amount of reviews for each different products, making reading to all the review traditionally wasting too much time and effort. While other metrics such as star rating is present on most skincare website, relying on only star rating to rate the quality of a product is unreliable. Due to this factor our teams goal is to create an application where we could make this process easier by finding out whether a certain user will recommend or not recommend a product based on their review
+The current skincare market is flooded with countless products each with unique ingredients and highlights. Consumers often struggle to decide which product most consumer recommend due to the large amount of reviews for each different products, making reading to all the review traditionally wasting too much time and effort. While other metrics such as star rating is present on most skincare website, relying on only star rating to rate the quality of a product is unreliable. Due to this factor our teams goal is to create an application where we could make this process easier by finding out whether a certain user will recommend or not recommend a product based on their review.
 
 ## Methods Used
 * Natural Language Processing (NLP)
@@ -36,8 +36,8 @@ The current skincare market is flooded with countless products each with unique 
 
 ## Group Members:
 
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Achmad Abdillah Ghifari](https://github.com/Gigis123)|    @Gigis123        |
-|[Celine Clarissa](https://github.com/celineclarissa) |     @celineclarissa    |
-|[Evan Juanto](https://github.com/juanto26) |     @juanto26   |
+|Name     | Role | Slack Handle   | 
+|---------|--------|---------|
+|[Achmad Abdillah Ghifari](https://github.com/Gigis123)| Data Analyst |    @Gigis123        |
+|[Celine Clarissa](https://github.com/celineclarissa) | Data Scientist |     @celineclarissa    |
+|[Evan Juanto](https://github.com/juanto26) | Data Engineer |     @juanto26   |
