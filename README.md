@@ -1,12 +1,12 @@
 <div align='center'>
     <h1><b>Skin-Scout</b></h1>
-    <img src='SkinScout_Logo.png'/>
+    <img src='deployment/SkinScout_Logo.png'/ width='400'>
     <br>
 
 </div>
 
 ---
-# Skin-Scout - USER REVIEW ANALYSIS AND RECOMMENDER SYSTEM
+## Skin-Scout User Review Analysis and Recommender System
 
 This project will utilize Natural Language Processing (NLP) and recommender system in order to help predict whether a customer will recommend a product or not and also to give recommendation of similar skincare product
 
