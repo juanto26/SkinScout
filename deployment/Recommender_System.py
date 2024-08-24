@@ -11,7 +11,7 @@ Team members :
 - Celine Clarissa         : Data Scientist
 - Evan Juanto             : Data Engineer
 
-HuggingFace      : https://huggingface.co/spaces/celineclarissa/Skin-Scout
+Hugging Face     : https://huggingface.co/spaces/celineclarissa/Skin-Scout
 
 Original Dataset : https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data
 
@@ -86,11 +86,7 @@ def get_recommendations_by_name(product_name, cosine_sim=cosine_sim, df=df, num_
     '''
     This function is used to get product recommendation based on the product name that the user inserts.
     '''
-    
-    ### Check if the product inserted by user is in the dataframe
-    if product_name not in df['product_name'].values:
-        return "Product not found."
-    
+        
     ### Find product index based on product name
     index = df[df['product_name'] == product_name].index[0]
     
@@ -139,20 +135,25 @@ def run():
 
     ## Create condition
     if submitted:
-
-        ### Get recommendations for inserted product name
-        recommendations = get_recommendations_by_name(product_name)
-
-        ### Clean recommendations
-        recommendations = recommendations[['product_name','brand_name']].reset_index()
-        recommendations = recommendations.rename(columns={'product_name': 'Product Name', 'brand_name': 'Brand Name'})
-        recommendations.drop(columns='index',inplace=True)
-
-        ### Print recommendations
-        container = st.container(border=True)
-        container.markdown('## Result')
-        container.write(f"##### You like {product_name}. Therefore, we recommend you to try:")
-        container.write(recommendations)
+        try:
+            ### Get recommendations for inserted product name
+            recommendations = get_recommendations_by_name(product_name)
+    
+            ### Clean recommendations
+            recommendations = recommendations[['product_name','brand_name']].reset_index()
+            recommendations = recommendations.rename(columns={'product_name': 'Product Name', 'brand_name': 'Brand Name'})
+            recommendations.drop(columns='index',inplace=True)
+    
+            ### Print recommendations
+            container = st.container(border=True)
+            container.markdown('## Result')
+            container.write(f"##### You like {product_name}. Therefore, we recommend you to try:")
+            container.write(recommendations)
+        except:
+            ### Print recommendations
+            container = st.container(border=True)
+            container.markdown('## Result')
+            container.write(f"##### Product is not available.")
 
         ### Show spinner after submitting
         st.spinner(text='Please wait for the result.')

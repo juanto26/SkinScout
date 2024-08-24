@@ -11,7 +11,7 @@ Team members :
 - Celine Clarissa         : Data Scientist
 - Evan Juanto             : Data Engineer
 
-HuggingFace      : https://huggingface.co/spaces/celineclarissa/Skin-Scout
+Hugging Face     : https://huggingface.co/spaces/celineclarissa/Skin-Scout
 
 Original Dataset : https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data
 

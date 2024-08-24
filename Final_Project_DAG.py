@@ -11,11 +11,11 @@ Team members :
 - Celine Clarissa         : Data Scientist
 - Evan Juanto             : Data Engineer
 
-HuggingFace      : https://huggingface.co/spaces/celineclarissa/Skin-Scout
+Hugging Face     : https://huggingface.co/spaces/celineclarissa/Skin-Scout
 
 Original Dataset : https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data
 
-Team GitHub      : https://github.com/juanto26/p2-final-project-skinscout
+Team GitHub      : https://github.com/FTDS-assignment-bay/p2-final-project-ftds-006-bsd-group-006
 
 
 Background

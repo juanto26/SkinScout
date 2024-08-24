@@ -17,7 +17,7 @@ The current skincare market is flooded with countless products each with unique 
 * Natural Language Processing (NLP)
 * Machine Learning
 * Data Visualization
-* cosine similarity
+* Cosine Similarity
 
 ## Technologies
 * Python
